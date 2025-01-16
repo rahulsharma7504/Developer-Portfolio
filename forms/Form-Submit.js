@@ -14,7 +14,7 @@ myForm.addEventListener('submit', function (event) {
     message: message.value,
   }
 
-  fetch('http://localhost:5000/api/form', {
+  fetch('https://portfolio-api-9cfl.onrender.com/api/form', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
